@@ -1,7 +1,7 @@
 // let nome = prompt("Informe o nome de usuario: ")
 // console.log("Bem vindo!" + nome)
 
-let semana = window.prompt("Qual o dia da semana?")
+let semana = window.prompt("Digite um numero de 1 a 7")
 
 switch (semana) {
     case "1":
