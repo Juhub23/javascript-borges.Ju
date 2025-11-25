@@ -1,7 +1,6 @@
-let numero = window.prompt("Insira um numero")
+let numero= window.prompt("Digite um numero de 1 a 10")
 
-if(numero % 2 === 0){
-    console. log("Ele é par")
-}else{
-    console. log ("Ele é impar")
+for(let m = 1; m <= 10; m++){
+    const resultado = numero * m;
+    console.log(`${numero} x ${m} = ${resultado}`);
 }

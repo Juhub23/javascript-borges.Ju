@@ -1,29 +1,10 @@
-let peso =  Number(prompt("Digite seu peso"));
-let altura =  Number(prompt("Digite sua altura"));
+let idade = parseInt(prompt("informe sua idade caso seja maior de 18"))
 
-let imc = peso / (altura * altura);
+while (idade , 18){
+    idade = parseInt(prompt("informe sua idade caso seja maior de 18"))
+    console.log(idade)
 
-console.log("seu IMC é: " + imc.toFixed(2));
-
-let classificacao = "";
-
-if(imc <18.5){
-classificacao = "abaixo do peso"
-
-}else if (imc < 25){
-
-    classificacao = "peso normal";
-
-}else if (imc < 30){
-    classificacao = "sobre peso";
-
-}else if (imc < 35){
-    classificacao = "obesidade tipo 1";
-    
-}else if (imc < 40){
-    classificacao = "obesidade tipo 2";
-}else{
-    classificacao = "obesidade tipo 3";
+    if (idade >= 18){
+        window.alert("Maior de idade")
+    }
 }
-
-console.log( "classificacao: " +classificacao)

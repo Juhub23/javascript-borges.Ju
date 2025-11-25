@@ -1,14 +1,12 @@
-let numero1 =  Number. parseFloat(prompt("Digite seu primeiro numero"))
+let num = 0
+do {
 
-let numero2 = Number. parseFloat(prompt("Digite segundo numero"))
 
-let numero3 =  Number. parseFloat(prompt("Digite o terceiro numero"))
 
-if(numero1 > numero2 && numero2 > numero3){
-    console.log("os numeros estão em ordem crescente", numero1 , numero2 , numero3);
-}
+    if (num % 2 == 0) {
+        console.log("Esse é numero par: " + num)
+    }
 
-else{
-    console.log("os numeros não estão em ordem crescente");
-    
-}
+    num++
+
+} while (num <= 20)

@@ -1,21 +1,11 @@
-let valor = Number (prompt("digite o valor da compra"))
-let desconto = 0;
+let num = parseInt(prompt("Escolha um numero"))
 
-if (valor <=100){
-desconto = 0;
-}
-else if (valor <= 200){
-    desconto = valor * 0.10; // 10%
-}
-else{
-    desconto = valor * 0.20 // 20%
+let n = 1
+let m = 0
+
+while( n <= num){
+    m = m + n
+    n++
 }
 
-let valorFinal = valor - desconto;
-console. log("Preço original", valor);
-
-console. log("Valor do desconto", desconto);
-
-console. log("Preço final", valorFinal);
-
-alert("Preço original", valor)
+console.log("Soma total: " , m);
